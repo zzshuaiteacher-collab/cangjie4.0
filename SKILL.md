@@ -34,7 +34,7 @@ description: |
 ### Phase 1: 9路并行全渠道搬运 (Integrated Harvesting)
 同时启动以下 9 个子 Agent，任务描述必须细致到「段落级」采样：
 
-1.  **微信搬运 Agent (WeChatArchiver)** ⭐**核心**：调用 `WeChatArchiver` 方法论，按年份全量抓取公众号历史文章，确保图片、金句、互动评论无损入库。
+1.  **微信搬运 Agent (WeChatArchiver)** ⭐**核心**：调用本仓库内的 `[.accio/skills/WeChatArchiver.md](.accio/skills/WeChatArchiver.md)` 方法论，按年份全量抓取公众号历史文章，确保图片、金句、互动评论无损入库。
 2.  **著作/研报 Agent**：扫描书籍、长篇 Newsletter、白皮书，提取系统化理论（Nuwa 深度）。
 3.  **对话/视频 Agent**：提取播客、视频访谈中的即兴思维片段，分析语气词、停顿感。
 4.  **社交/DNA Agent**：分析微博、Twitter 上的碎片化表达、金句习惯。
