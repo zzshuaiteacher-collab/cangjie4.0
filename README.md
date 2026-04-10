@@ -35,10 +35,10 @@
 
 ## 🛠️ 快速开始：如何操作？
 
-### 第一步：初始化环境
-1.  在本地磁盘创建一个文件夹，作为该团队的专属大脑（例如 `F:\Cangjie_Vaults\LatePost`）。
-2.  在 Obsidian 中打开该文件夹。
-3.  将本仓库 `references/obsidian-vault-standard.md` 中的目录结构复制进去。
+### 第一步：初始化环境与路径确认
+1.  **路径确认**：在本地磁盘选择一个长期存放 Obsidian 仓库的位置（严禁存放在 Agent 临时目录下）。AI 必须先询问用户或检索本地 Obsidian 路径。
+2.  **文件夹创建**：确认路径后，创建该团队的专属大脑文件夹（例如 `D:\My_Vaults\Cangjie_Vault_LatePost`）。
+3.  **结构初始化**：将本仓库 `references/obsidian-vault-standard.md` 中的目录结构复制进去。
 
 ### 第二步：启动仓颉执行「地毯式搬运」
 调用仓颉指令：
